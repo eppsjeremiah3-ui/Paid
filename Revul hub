@@ -2,7 +2,6 @@ getgenv().SECRET_KEY = "mrr_ee7edd2bbf1a4574a02bf2ab08607120"
 getgenv().TARGET_ID = 6074348674
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
-getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1482166909825978489/CL0gKh4CAFARX77hyNju4z0fhWXMr-hgctDTB-VNxPL6BnPhohj8SenhX6HyWxhrQB58"
 getgenv().TARGET_BRAINROTS = {
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
